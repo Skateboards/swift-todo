@@ -20,6 +20,10 @@
 		95AECC67243E520300B731CF /* TaskEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC66243E520300B731CF /* TaskEditingView.swift */; };
 		95AECC6B243E52DA00B731CF /* IndexedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC69243E52DA00B731CF /* IndexedCollection.swift */; };
 		95AECC6C243E52DA00B731CF /* ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC6A243E52DA00B731CF /* ForEach.swift */; };
+		95AECC6E243E6B6100B731CF /* Task.Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC6D243E6B6100B731CF /* Task.Priority.swift */; };
+		95AECC70243E6BAF00B731CF /* TaskStore.PrioritizedTasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC6F243E6BAF00B731CF /* TaskStore.PrioritizedTasks.swift */; };
+		95AECC72243E6F9C00B731CF /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC71243E6F9C00B731CF /* SectionView.swift */; };
+		95AECC74243E78A600B731CF /* Binding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC73243E78A600B731CF /* Binding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +42,10 @@
 		95AECC66243E520300B731CF /* TaskEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditingView.swift; sourceTree = "<group>"; };
 		95AECC69243E52DA00B731CF /* IndexedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexedCollection.swift; sourceTree = "<group>"; };
 		95AECC6A243E52DA00B731CF /* ForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForEach.swift; sourceTree = "<group>"; };
+		95AECC6D243E6B6100B731CF /* Task.Priority.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.Priority.swift; sourceTree = "<group>"; };
+		95AECC6F243E6BAF00B731CF /* TaskStore.PrioritizedTasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.PrioritizedTasks.swift; sourceTree = "<group>"; };
+		95AECC71243E6F9C00B731CF /* SectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
+		95AECC73243E78A600B731CF /* Binding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Binding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				95AECC59243E359500B731CF /* Task.swift */,
+				95AECC6D243E6B6100B731CF /* Task.Priority.swift */,
 				95AECC5D243E35FD00B731CF /* TaskStore.swift */,
+				95AECC6F243E6BAF00B731CF /* TaskStore.PrioritizedTasks.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -107,6 +117,7 @@
 				95AECC5F243E441D00B731CF /* NewTaskView.swift */,
 				95AECC64243E4F7500B731CF /* RowView.swift */,
 				95AECC66243E520300B731CF /* TaskEditingView.swift */,
+				95AECC71243E6F9C00B731CF /* SectionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -116,6 +127,7 @@
 			children = (
 				95AECC69243E52DA00B731CF /* IndexedCollection.swift */,
 				95AECC6A243E52DA00B731CF /* ForEach.swift */,
+				95AECC73243E78A600B731CF /* Binding.swift */,
 			);
 			path = extension;
 			sourceTree = "<group>";
@@ -194,10 +206,14 @@
 				95AECC5E243E35FD00B731CF /* TaskStore.swift in Sources */,
 				95AECC5A243E359500B731CF /* Task.swift in Sources */,
 				95AECC6B243E52DA00B731CF /* IndexedCollection.swift in Sources */,
+				95AECC74243E78A600B731CF /* Binding.swift in Sources */,
 				95AECC67243E520300B731CF /* TaskEditingView.swift in Sources */,
 				95AECC65243E4F7500B731CF /* RowView.swift in Sources */,
 				95AECC60243E441D00B731CF /* NewTaskView.swift in Sources */,
+				95AECC6E243E6B6100B731CF /* Task.Priority.swift in Sources */,
 				95AECC46243E358A00B731CF /* AppDelegate.swift in Sources */,
+				95AECC72243E6F9C00B731CF /* SectionView.swift in Sources */,
+				95AECC70243E6BAF00B731CF /* TaskStore.PrioritizedTasks.swift in Sources */,
 				95AECC48243E358A00B731CF /* SceneDelegate.swift in Sources */,
 				95AECC6C243E52DA00B731CF /* ForEach.swift in Sources */,
 				95AECC4A243E358A00B731CF /* ContentView.swift in Sources */,
