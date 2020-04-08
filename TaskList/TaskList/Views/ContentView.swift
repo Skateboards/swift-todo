@@ -19,8 +19,8 @@ struct ContentView: View {
 
     NavigationView {
       List {
-        ForEach(taskStore.tasks) { task in
-          Text(task.name)
+        ForEach(taskStore.tasks) { index in
+          RowView(task: self.$taskStore.tasks[index])
         }
         .onMove {
           sourceIndeces, destinationIndex in self.taskStore.tasks.move(fromOffsets: sourceIndeces, toOffset: destinationIndex)
@@ -40,7 +40,7 @@ struct ContentView: View {
       )
     }
     .sheet(isPresented: $modalIsPresented) {
-      NewTaskView(taskStore: TaskStore())
+      NewTaskView(taskStore: self.taskStore)
     }
   }
 }
@@ -50,3 +50,5 @@ struct ContentView_Previews: PreviewProvider {
     ContentView(taskStore: TaskStore())
   }
 }
+
+

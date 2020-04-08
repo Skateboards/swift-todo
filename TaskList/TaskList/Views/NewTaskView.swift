@@ -12,13 +12,11 @@ struct NewTaskView: View {
   var taskStore: TaskStore
 
   @State var text = ""
-
   @Environment(\.presentationMode) var presentationMode
 
   var body: some View {
     Form {
       TextField("Task Name", text: $text)
-
       Button("Add") {
         self.taskStore.tasks.append(
           Task(name: self.text)

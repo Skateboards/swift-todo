@@ -16,6 +16,10 @@
 		95AECC5A243E359500B731CF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC59243E359500B731CF /* Task.swift */; };
 		95AECC5E243E35FD00B731CF /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC5D243E35FD00B731CF /* TaskStore.swift */; };
 		95AECC60243E441D00B731CF /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC5F243E441D00B731CF /* NewTaskView.swift */; };
+		95AECC65243E4F7500B731CF /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC64243E4F7500B731CF /* RowView.swift */; };
+		95AECC67243E520300B731CF /* TaskEditingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC66243E520300B731CF /* TaskEditingView.swift */; };
+		95AECC6B243E52DA00B731CF /* IndexedCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC69243E52DA00B731CF /* IndexedCollection.swift */; };
+		95AECC6C243E52DA00B731CF /* ForEach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC6A243E52DA00B731CF /* ForEach.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		95AECC59243E359500B731CF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		95AECC5D243E35FD00B731CF /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
 		95AECC5F243E441D00B731CF /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		95AECC64243E4F7500B731CF /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
+		95AECC66243E520300B731CF /* TaskEditingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskEditingView.swift; sourceTree = "<group>"; };
+		95AECC69243E52DA00B731CF /* IndexedCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexedCollection.swift; sourceTree = "<group>"; };
+		95AECC6A243E52DA00B731CF /* ForEach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForEach.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 		95AECC44243E358A00B731CF /* TaskList */ = {
 			isa = PBXGroup;
 			children = (
+				95AECC68243E52DA00B731CF /* extension */,
 				95AECC5C243E35A700B731CF /* Models */,
 				95AECC61243E442F00B731CF /* Views */,
 				95AECC45243E358A00B731CF /* AppDelegate.swift */,
@@ -96,8 +105,19 @@
 			children = (
 				95AECC49243E358A00B731CF /* ContentView.swift */,
 				95AECC5F243E441D00B731CF /* NewTaskView.swift */,
+				95AECC64243E4F7500B731CF /* RowView.swift */,
+				95AECC66243E520300B731CF /* TaskEditingView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		95AECC68243E52DA00B731CF /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				95AECC69243E52DA00B731CF /* IndexedCollection.swift */,
+				95AECC6A243E52DA00B731CF /* ForEach.swift */,
+			);
+			path = extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -173,9 +193,13 @@
 			files = (
 				95AECC5E243E35FD00B731CF /* TaskStore.swift in Sources */,
 				95AECC5A243E359500B731CF /* Task.swift in Sources */,
+				95AECC6B243E52DA00B731CF /* IndexedCollection.swift in Sources */,
+				95AECC67243E520300B731CF /* TaskEditingView.swift in Sources */,
+				95AECC65243E4F7500B731CF /* RowView.swift in Sources */,
 				95AECC60243E441D00B731CF /* NewTaskView.swift in Sources */,
 				95AECC46243E358A00B731CF /* AppDelegate.swift in Sources */,
 				95AECC48243E358A00B731CF /* SceneDelegate.swift in Sources */,
+				95AECC6C243E52DA00B731CF /* ForEach.swift in Sources */,
 				95AECC4A243E358A00B731CF /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
