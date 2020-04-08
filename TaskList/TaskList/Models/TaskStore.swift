@@ -6,8 +6,11 @@
 //  Copyright © 2020 Charlie.Collier. All rights reserved.
 //
 
-class TaskStore {
-  var tasks = [
+
+import Combine
+
+class TaskStore: ObservableObject {
+  @Published var tasks = [
     "Code todo App",
     "Laundry",
     "Feed cats",

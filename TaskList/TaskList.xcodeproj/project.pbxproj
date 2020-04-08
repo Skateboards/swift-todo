@@ -15,6 +15,7 @@
 		95AECC52243E358B00B731CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AECC50243E358B00B731CF /* LaunchScreen.storyboard */; };
 		95AECC5A243E359500B731CF /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC59243E359500B731CF /* Task.swift */; };
 		95AECC5E243E35FD00B731CF /* TaskStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC5D243E35FD00B731CF /* TaskStore.swift */; };
+		95AECC60243E441D00B731CF /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AECC5F243E441D00B731CF /* NewTaskView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		95AECC53243E358B00B731CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95AECC59243E359500B731CF /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		95AECC5D243E35FD00B731CF /* TaskStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskStore.swift; sourceTree = "<group>"; };
+		95AECC5F243E441D00B731CF /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,9 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				95AECC5C243E35A700B731CF /* Models */,
+				95AECC61243E442F00B731CF /* Views */,
 				95AECC45243E358A00B731CF /* AppDelegate.swift */,
 				95AECC47243E358A00B731CF /* SceneDelegate.swift */,
-				95AECC49243E358A00B731CF /* ContentView.swift */,
 				95AECC4B243E358B00B731CF /* Assets.xcassets */,
 				95AECC50243E358B00B731CF /* LaunchScreen.storyboard */,
 				95AECC53243E358B00B731CF /* Info.plist */,
@@ -87,6 +89,15 @@
 				95AECC5D243E35FD00B731CF /* TaskStore.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		95AECC61243E442F00B731CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				95AECC49243E358A00B731CF /* ContentView.swift */,
+				95AECC5F243E441D00B731CF /* NewTaskView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,6 +173,7 @@
 			files = (
 				95AECC5E243E35FD00B731CF /* TaskStore.swift in Sources */,
 				95AECC5A243E359500B731CF /* Task.swift in Sources */,
+				95AECC60243E441D00B731CF /* NewTaskView.swift in Sources */,
 				95AECC46243E358A00B731CF /* AppDelegate.swift in Sources */,
 				95AECC48243E358A00B731CF /* SceneDelegate.swift in Sources */,
 				95AECC4A243E358A00B731CF /* ContentView.swift in Sources */,
